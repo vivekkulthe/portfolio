@@ -20,7 +20,7 @@ export const headerData = {
 
 export const heroData = {
     avatarSrc: '/images/avatar.png',
-    title: "Hello! I'm Vivek. Data, Analytics, AI, Decision Intelligence, Data Governance Leader",
+    title: "Hello! I'm Vivek. Data, Analytics, AI Leader",
     hireStatus: 'Download Resume',
     socialLinks: [
         { bootstrapIcons: "bi bi-facebook", href: "#" },
@@ -41,7 +41,7 @@ export const servicesData = [
         href: '/contact'
     },
     {
-        title: '4,000+',
+        title: '1,000+',
         description: 'Satisfied customers around the world during the past 10 years',
     },
 ]
