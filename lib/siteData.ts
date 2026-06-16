@@ -111,9 +111,9 @@ export const portfolioData = {
             content: '<h4 class="font-outfit font-medium text-2xl lg:text-3xl mb-2 text-charcoal dark:text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit</h4><p class="text-pColor leading-7 dark:text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>',
             content2: '<h4 class="font-outfit font-medium text-2xl lg:text-3xl mb-2 text-charcoal dark:text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit</h4><p class="text-pColor leading-7 dark:text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>',
             thumbnail: '/images/portfolio.png',
-            client: 'flatheme',
+            client: 'vivekkulthe',
             projectLink: {
-                label: 'www.flatheme.net',
+                label: 'www.vivekkulthe.com',
                 url: '#'
             },
             images: [
@@ -136,7 +136,7 @@ export const portfolioData = {
             thumbnail: '/images/portfolio.png',
             client: 'flatheme',
             projectLink: {
-                label: 'www.flatheme.net',
+                label: 'www.vivekkulthe.com',
                 url: '#'
             }, images: [
                 '/images/portfolio.png',
@@ -157,7 +157,7 @@ export const portfolioData = {
             thumbnail: '/images/portfolio.png',
             client: 'flatheme',
             projectLink: {
-                label: 'www.flatheme.net',
+                label: 'www.vivekkulthe.com',
                 url: '#'
             }, images: [
                 '/images/portfolio.png',
@@ -178,7 +178,7 @@ export const portfolioData = {
             thumbnail: '/images/portfolio.png',
             client: 'flatheme',
             projectLink: {
-                label: 'www.flatheme.net',
+                label: 'www.vivekkulthe.com',
                 url: '#'
             }, images: [
                 '/images/portfolio.png',
@@ -199,7 +199,7 @@ export const portfolioData = {
             thumbnail: '/images/portfolio.png',
             client: 'flatheme',
             projectLink: {
-                label: 'www.flatheme.net',
+                label: 'www.vivekkulthe.com',
                 url: '#'
             }, images: [
                 '/images/portfolio.png',
@@ -220,7 +220,7 @@ export const portfolioData = {
             thumbnail: '/images/portfolio.png',
             client: 'flatheme',
             projectLink: {
-                label: 'www.flatheme.net',
+                label: 'www.vivekkulthe.com',
                 url: '#'
             }, images: [
                 '/images/portfolio.png',
@@ -245,7 +245,7 @@ export const blogData = [
         content2: '<h4 class="font-outfit font-medium text-2xl lg:text-3xl mb-2 text-charcoal dark:text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit</h4><p class="text-pColor leading-7 dark:text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>',
         thumbnail: '/images/blog.png',
         author: {
-            label: 'flatheme',
+            label: "Vivek Kulthe",
             url: '#'
         },
         images: [
@@ -267,7 +267,7 @@ export const blogData = [
         content2: '<h4 class="font-outfit font-medium text-2xl lg:text-3xl mb-2 text-charcoal dark:text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit</h4><p class="text-pColor leading-7 dark:text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>',
         thumbnail: '/images/blog.png',
         author: {
-            label: 'flatheme',
+            label: "Vivek Kulthe",
             url: '#'
         },
         images: [
@@ -289,7 +289,7 @@ export const blogData = [
         content2: '<h4 class="font-outfit font-medium text-2xl lg:text-3xl mb-2 text-charcoal dark:text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit</h4><p class="text-pColor leading-7 dark:text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>',
         thumbnail: '/images/blog.png',
         author: {
-            label: 'flatheme',
+            label: "Vivek Kulthe",
             url: '#'
         },
         images: [
@@ -311,7 +311,7 @@ export const blogData = [
         content2: '<h4 class="font-outfit font-medium text-2xl lg:text-3xl mb-2 text-charcoal dark:text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit</h4><p class="text-pColor leading-7 dark:text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>',
         thumbnail: '/images/blog.png',
         author: {
-            label: 'flatheme',
+            label: "Vivek Kulthe",
             url: '#'
         },
         images: [
@@ -333,7 +333,7 @@ export const blogData = [
         content2: '<h4 class="font-outfit font-medium text-2xl lg:text-3xl mb-2 text-charcoal dark:text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit</h4><p class="text-pColor leading-7 dark:text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>',
         thumbnail: '/images/blog.png',
         author: {
-            label: 'flatheme',
+            label: "Vivek Kulthe",
             url: '#'
         },
         images: [
@@ -355,7 +355,7 @@ export const blogData = [
         content2: '<h4 class="font-outfit font-medium text-2xl lg:text-3xl mb-2 text-charcoal dark:text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit</h4><p class="text-pColor leading-7 dark:text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>',
         thumbnail: '/images/blog.png',
         author: {
-            label: 'flatheme',
+            label: "Vivek Kulthe",
             url: '#'
         },
         images: [
@@ -440,6 +440,6 @@ export const mapData = {
 }
 
 export const footerData = {
-    copyright: '© 2024 FlaTheme. All rights reserved.',
+    copyright: '© 2026 vivekkulthe.com | all rights reserved.',
     scrollToTopText: 'Scroll to Top',
 }
