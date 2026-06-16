@@ -31,20 +31,38 @@ export const heroData = {
 
 export const servicesData = [
     {
-        icon: 'bi bi-globe',
+        icon: 'bi bi-database-check',
         title: 'Creating marketing strategies, and campaigns',
         href: '/contact'
     },
     {
-        icon: 'bi bi-bar-chart',
+        icon: 'bi bi-signpost-2',
+        title: 'Creating marketing strategies, and campaigns',
+        href: '/contact'
+    },
+    {
+        icon: 'bi bi-shield-check',
+        title: 'Creating marketing strategies, and campaigns',
+        href: '/contact'
+    },
+    {
+        icon: 'bi bi-cloud-sun',
+        title: 'Creating marketing strategies, and campaigns',
+        href: '/contact'
+    },
+    {
+        icon: 'bi bi-hurricane',
         title: 'Enhancing brand awareness, and generating leads',
         href: '/contact'
     },
     {
-        title: '1,000+',
-        description: 'Satisfied customers around the world during the past 10 years',
+        title: 'Top 10',
+        description: 'Featured in Top 10 AI Influencers in India 2026',
     },
+   
 ]
+
+
 
 export const experienceData = {
     yearsOfExperience: '10+',
@@ -381,39 +399,62 @@ export const skillsData = [
 export const resumeData = {
     experience: [
         {
-            period: '2023 - Present',
-            title: 'Creative Director',
-            company: 'flatheme',
+            period: '2025 - Present',
+            title: 'Head of Data Engineering',
+            company: 'Jisr',
             description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim',
         },
         {
-            period: '2021 - 2023',
-            title: 'Marketing Team Lead',
-            company: 'flatheme',
+            period: '2025 - 2025',
+            title: 'Senior Delivery Manager',
+            company: 'EPAM Systems',
             description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua',
         },
         {
-            period: '2018 - 2021',
-            title: 'Marketing Specialist',
-            company: 'envato',
+            period: '2020 - 2024',
+            title: 'Senior Engineering Manager - Data',
+            company: 'Atlassian',
             description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim',
         },
         {
-            period: '2015 - 2018',
-            title: 'Solution Architect',
-            company: 'flatheme',
+            period: '2017 - 2020',
+            title: 'Senior Manager Data & BI',
+            company: 'Veritas Technologies',
+            description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+        },
+        {
+            period: '2015 - 2017',
+            title: 'Assistant Vice',
+            company: 'Credit Suisse',
+            description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua',
+        },
+        {
+            period: '2010 - 2013',
+            title: 'Technical Leader',
+            company: 'Wipro Technologies',
+            description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim',
+        },
+        {
+            period: '2007 - 2010',
+            title: 'Package Solution Consultant',
+            company: 'IBM India Pvt Ltd',
             description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
         },
     ],
     education: [
         {
-            degree: 'Business Administration',
-            institution: 'University of Business',
+            degree: 'PCP - Data Science & Artificial Intelligence',
+            institution: 'Indian Institute of Management, Kozhikode',
             icon: 'bi bi-mortarboard',
         },
         {
-            degree: 'Bachelor of Computer Science',
-            institution: 'University of Science',
+            degree: 'Master of Computer Management',
+            institution: 'University of Pune',
+            icon: 'bi bi-mortarboard',
+        },
+        {
+            degree: 'Bachelor of Electronics Science',
+            institution: 'University of Pune',
             icon: 'bi bi-mortarboard',
         },
     ],
