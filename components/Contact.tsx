@@ -41,7 +41,7 @@ export default function Contact() {
             <h1 id="get-in-touch" className="font-outfit font-medium text-charcoal text-6xl xl:text-7xl leading-[1.2] dark:text-white">Get In Touch</h1>
             <div className="lg:flex space-y-10 lg:space-y-0 mt-8">
                 <div className="lg:w-2/5 lg:order-2 lg:ml-12 bg-steelBlue lg:h-fit p-8 md:p-10 xl:p-12 rounded-3xl shadow-customShadow hover:shadow-customShadowHover transition ease-out duration-150 dark:bg-steelBlueDarker">
-                    <h5 className="font-outfit font-medium text-xl text-white">Phone:</h5>
+                    <h5 className="font-outfit font-medium text-xl text-white">WhatsApp:</h5>
                     {contactData.phoneNumbers.map((phone, index) => (
                         <p className="text-white/80" key={index}>{phone}</p>
                     ))}
@@ -52,7 +52,7 @@ export default function Contact() {
                         ))}
                     </div>
                     <div className="mt-4">
-                        <h5 id="address" className="font-outfit font-medium text-xl text-white">Address:</h5>
+                        <h5 id="address" className="font-outfit font-medium text-xl text-white">LinkedIn:</h5>
                         {contactData.address.map((address, index) => (
                             <p className="text-white/80" key={index}>{address}</p>
                         ))}

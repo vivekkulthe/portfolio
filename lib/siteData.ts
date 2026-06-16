@@ -1,5 +1,5 @@
 export const headerData = {
-    phoneNumbers: ['+123 456 789 01', '+123 456 789 02'],
+    phoneNumbers: ['+44 7721 008214'],
     email: 'contact@vivekkulthe.com',
     navigation: [
         { name: 'About', href: '/#' },
@@ -429,14 +429,14 @@ export const slidingTextData = [
 ]
 
 export const contactData = {
-    phoneNumbers: ['+123 456 789 01', '+123 456 789 02'],
-    emails: ["contact@flatheme.net"],
-    address: ["121 King St, Melbourne VIC 3000"],
+    phoneNumbers: ['+44 7721 008214'],
+    emails: ["contact@vivekkulthe.com"],
+    address: ["https://www.linkedin.com/in/vivekkulthe"],
 }
 
 export const mapData = {
-    latitude: '51.513569',
-    longitude: '-0.123443',
+    latitude: '18.52043',
+    longitude: '73.85674',
 }
 
 export const footerData = {
