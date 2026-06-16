@@ -1,6 +1,6 @@
 export const headerData = {
     phoneNumbers: ['+123 456 789 01', '+123 456 789 02'],
-    email: 'contact@flatheme.net',
+    email: 'contact@vivekkulthe.com',
     navigation: [
         { name: 'About', href: '/#' },
         { name: 'Services', href: '/#services' },
@@ -15,13 +15,13 @@ export const headerData = {
         { bootstrapIcons: "bi bi-twitter-x", href: "#" },
         { bootstrapIcons: "bi bi-linkedin", href: "#" },
     ],
-    logo: 'nemu',
+    logo: 'vivek kulthe',
 }
 
 export const heroData = {
     avatarSrc: '/images/avatar.png',
     title: "Data & AI Executive | Building Enterprise Data Platforms, Analytics Organizations, and AI-Enabled Businesses",
-    hireStatus: 'Available for hire',
+    hireStatus: 'Download Resume',
     socialLinks: [
         { bootstrapIcons: "bi bi-facebook", href: "#" },
         { bootstrapIcons: "bi bi-instagram", href: "#" },
