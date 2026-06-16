@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Outfit:wght@200;300;400;500;600;700;800&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    /* Mobile Nav */
+    .nav-list.show {
+        @apply visible opacity-100;
+    }
+    .mobile-nav-toggle.active span:before,
+    .mobile-nav-toggle.active span:after {
+        @apply bg-charcoal;
+    }
+    .dark .mobile-nav-toggle.active span:before,
+    .dark .mobile-nav-toggle.active span:after {
+        @apply bg-white;
+    }
+
+    /* Toggle Menu */
+    .desktop-menu.show {
+        @apply visible opacity-100;
+    }
+    .desktop-menu-toggle.active span:before, 
+    .desktop-menu-toggle.active span:after {
+        @apply bg-charcoal;
+    }
+    .dark .desktop-menu-toggle.active span:before, 
+    .dark .desktop-menu-toggle.active span:after {
+        @apply bg-white;
+    }
+
+    /* Stroke Text */
+    .stroke-text {
+        -webkit-text-fill-color: transparent;
+        -webkit-text-stroke-width: 1.4px;
+        -webkit-text-stroke-color: #2c3943;
+    }
+    .dark .stroke-text {
+        -webkit-text-stroke-color: white;
+    }
+    .stroke-text-white {
+        -webkit-text-fill-color: transparent;
+        -webkit-text-stroke-width: 1.4px;
+        -webkit-text-stroke-color: white;
+    }
+    @media (max-width: 1023.99px) {
+        .stroke-text, 
+        .stroke-text-white {
+            -webkit-text-stroke-width: 1.2px;
+        }
+    }
+
+    /* Testimonial Slider */
+    .testimonial-pagination {
+        @apply top-0 right-0 bottom-0 left-0 flex;
+	}
+    .testimonial-pagination .swiper-pagination-bullet {
+        @apply bg-white/30 w-[5px] h-[5px] mx-[3px] my-0 rounded-md opacity-100 transition-all ease-linear duration-100;
+    }
+    .testimonial-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
+        @apply bg-white w-[13px];
+    }
+
+    /* Portfolio Filter */
+    .mixitup-control-active {
+        @apply bg-charcoal;
+    }
+    .dark .mixitup-control-active {
+        @apply bg-white/15;
+    }
+
+    /* Progress bar */
+    .animated-progress div:after {
+        content: attr(data-progress) '%';
+    }
+    .animated-progress div.progress-show:after {
+        @apply opacity-100;
+    }
+
+    /* Page Preloader */
+    .preloader div {
+        --g: no-repeat radial-gradient(circle closest-side, #9C7ECE 90%, #f1f5fa);
+        background: 
+        var(--g) 0 0,
+        var(--g) 0 100%,
+        var(--g) 100% 100%;
+        background-size: 40% 40%;
+    }
+    .dark .preloader div {
+        --g: no-repeat radial-gradient(circle closest-side, #9C7ECE 90%, #14181a);
+    }
+    .loaded .preloader {
+        @apply invisible opacity-0;
+    }
+}
