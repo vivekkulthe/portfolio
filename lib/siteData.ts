@@ -20,7 +20,7 @@ export const headerData = {
 
 export const heroData = {
     avatarSrc: '/images/avatar.png',
-    title: "Hi There! I'm Chrisy. A Professional Digital Marketer based in Mongolia",
+    title: "Data & AI Executive | Building Enterprise Data Platforms, Analytics Organizations, and AI-Enabled Businesses",
     hireStatus: 'Available for hire',
     socialLinks: [
         { bootstrapIcons: "bi bi-facebook", href: "#" },
