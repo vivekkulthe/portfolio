@@ -1,0 +1,13 @@
+.next/app-build-manifest.json
+/.next
+/node_modules/.bin
+/node_modules/@alloc/quick-lru
+/node_modules/@eslint-community/eslint-utils
+/node_modules/@eslint-community/regexpp
+/node_modules/@eslint/config-array/dist/cjs/std__path
+/node_modules/@eslint
+/node_modules
+/.next
+/.next
+.next/trace
+/.next
