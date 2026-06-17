@@ -401,7 +401,7 @@ export const blogData = [
 ]
 
 export const skillsData = [
-    { name: 'Progress Bar', progress: 98 },
+    { name: 'Progressing Bar', progress: 98 },
     { name: 'Progress Bar', progress: 85 },
     { name: 'Progress Bar', progress: 94 },
     { name: 'Progress Bar', progress: 98 },
@@ -413,7 +413,7 @@ export const resumeData = {
     experience: [
         {
             period: '2025 - Present',
-            title: 'Head of Data Engineering',
+            title: 'Head of Data Engineering...',
             company: 'Jisr',
             description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim',
         },
