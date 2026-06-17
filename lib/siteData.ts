@@ -72,33 +72,33 @@ export const experienceData = {
 
 export const clientsData = [
     {
-        logoLight: '/images/client-logo.png',
-        logoDark: '/images/client-logo.png',
+        logoLight: '/images/client-logo-1.png',
+        logoDark: '/images/client-logo-1.png',
         url: '#'
     },
     {
-        logoLight: '/images/client-logo.png',
-        logoDark: '/images/client-logo.png',
+        logoLight: '/images/client-logo-2.png',
+        logoDark: '/images/client-logo-2.png',
         url: '#'
     },
     {
-        logoLight: '/images/client-logo.png',
-        logoDark: '/images/client-logo.png',
+        logoLight: '/images/client-logo-3.png',
+        logoDark: '/images/client-logo-3.png',
         url: '#'
     },
     {
-        logoLight: '/images/client-logo.png',
-        logoDark: '/images/client-logo.png',
+        logoLight: '/images/client-logo-4.png',
+        logoDark: '/images/client-logo-4.png',
         url: '#'
     },
     {
-        logoLight: '/images/client-logo.png',
-        logoDark: '/images/client-logo.png',
+        logoLight: '/images/client-logo-5.png',
+        logoDark: '/images/client-logo-5.png',
         url: '#'
     },
     {
-        logoLight: '/images/client-logo.png',
-        logoDark: '/images/client-logo.png',
+        logoLight: '/images/client-logo-6.png',
+        logoDark: '/images/client-logo-6.png',
         url: '#'
     },
 ]
