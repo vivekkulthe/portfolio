@@ -43,9 +43,6 @@ export default function Experience() {
                     <h2 className="font-outfit font-medium text-3xl text-charcoal leading-[1.2] dark:text-white">
                         {experienceData.description2}
                     </h2>
-                    <h2 className="font-outfit font-medium text-3xl text-charcoal leading-[1.2] dark:text-white">
-                        {experienceData.description3}
-                    </h2>
                 </div>
             </div>
 

@@ -20,7 +20,7 @@ export const headerData = {
 
 export const heroData = {
     avatarSrc: '/images/avatar.png',
-    title: "Hello! I'm Vivek. Data & AI Executive - Driving Data-Driven Decisions and AI-Powered Growth",
+    title: "Hello! I'm Vivek. Data & AI Leader. Driving Data-Driven Decisions and AI-Powered Growth",
     hireStatus: 'Download Resume',
     socialLinks: [
         { bootstrapIcons: "bi bi-facebook", href: "#" },
@@ -66,9 +66,8 @@ export const servicesData = [
 
 export const experienceData = {
     yearsOfExperience: '20+',
-    description1: 'My career has taught me that analytics is only as effective as the data behind it, and AI is only as reliable as the foundations that support it.',
-    description2: 'I am passionate about helping organizations build trusted data ecosystems, adopt AI responsibly, and create cultures where information is transformed into meaningful action.',
-    description3: 'The true value of Data and AI is not measured by the sophistication of technology, but by the business outcomes, customer experiences, and organizational growth it enables.',
+    description1: 'I am passionate about helping organizations build trusted data ecosystems, adopt AI responsibly, and create cultures where information is transformed into meaningful action.',
+    description2: 'The true value of Data and AI is not measured by the sophistication of technology, but by the business outcomes, customer experiences, and organizational growth it enables.',
 }
 
 export const clientsData = [
