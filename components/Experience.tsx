@@ -37,8 +37,14 @@ export default function Experience() {
                     <p className="text-pColor dark:text-white/80">Years of Experience</p>
                 </div>
                 <div className="lg:w-5/6">
-                    <h2 className="font-outfit font-medium text-4xl text-charcoal leading-[1.2] dark:text-white">
-                        {experienceData.description}
+                    <h2 className="font-outfit font-medium text-3xl text-charcoal leading-[1.2] dark:text-white">
+                        {experienceData.description1}
+                    </h2>
+                    <h2 className="font-outfit font-medium text-3xl text-charcoal leading-[1.2] dark:text-white">
+                        {experienceData.description2}
+                    </h2>
+                    <h2 className="font-outfit font-medium text-3xl text-charcoal leading-[1.2] dark:text-white">
+                        {experienceData.description3}
                     </h2>
                 </div>
             </div>

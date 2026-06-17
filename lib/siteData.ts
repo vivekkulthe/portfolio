@@ -66,7 +66,9 @@ export const servicesData = [
 
 export const experienceData = {
     yearsOfExperience: '20+',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam',
+    description1: 'My career has taught me that analytics is only as effective as the data behind it, and AI is only as reliable as the foundations that support it.',
+    description2: 'I am passionate about helping organizations build trusted data ecosystems, adopt AI responsibly, and create cultures where information is transformed into meaningful action.',
+    description3: 'The true value of Data and AI is not measured by the sophistication of technology, but by the business outcomes, customer experiences, and organizational growth it enables.',
 }
 
 export const clientsData = [
@@ -105,20 +107,32 @@ export const clientsData = [
 export const testimonialsData = [
     {
         quote: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt',
-        author: 'Rodney Fletcher',
+        author: 'Rodney Fletcher1',
     },
     {
         quote: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt',
-        author: 'Rodney Fletcher',
+        author: 'Rodney Fletcher2',
     },
     {
         quote: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt',
-        author: 'Rodney Fletcher',
+        author: 'Rodney Fletcher3',
+    },
+    {
+        quote: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt',
+        author: 'Rodney Fletcher4',
+    },
+    {
+        quote: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt',
+        author: 'Rodney Fletcher5',
+    },
+    {
+        quote: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt',
+        author: 'Rodney Fletcher6',
     },
 ]
 
 export const portfolioData = {
-    title: 'My Latest Works',
+    title: 'Featured Initiatives',
     filterCategories: ["Show All", "First", "Second"],
     projects: [
         {
