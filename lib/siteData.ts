@@ -7,7 +7,8 @@ export const headerData = {
         { name: 'Portfolio', href: '/portfolio' },
         { name: 'Resume', href: '/#resume' },
         { name: 'Contact', href: '/contact' },
-        { name: 'Blog', href: '/blog' },
+       /* { name: 'Blog', href: '/blog' },*/ 
+       /* BLOG LINK COMMENTED ABOVE */
     ],
     socialLinks: [
         { bootstrapIcons: "bi bi-facebook", href: "#" },
