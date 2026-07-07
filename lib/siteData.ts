@@ -11,10 +11,10 @@ export const headerData = {
        /* BLOG LINK COMMENTED ABOVE */
     ],
     socialLinks: [
-        { bootstrapIcons: "bi bi-facebook", href: "#" },
-        { bootstrapIcons: "bi bi-instagram", href: "#" },
-        { bootstrapIcons: "bi bi-twitter-x", href: "#" },
-        { bootstrapIcons: "bi bi-linkedin", href: "#" },
+        { bootstrapIcons: "bi bi-facebook", href: "https://m.me/vivek.kulthe" },
+        { bootstrapIcons: "bi bi-instagram", href: "https://ig.me/m/vivek.kulthe" },
+        { bootstrapIcons: "bi bi-twitter-x", href: "https://twitter.com/messages/compose?recipient_id=vivekkulthe" },
+        { bootstrapIcons: "bi bi-linkedin", href: "https://www.linkedin.com/in/vivekkulthe/" },
     ],
     logo: 'vivek kulthe',
 }
