@@ -1,5 +1,5 @@
 import Contact from '@/components/Contact';
-import Map from '@/components/Map';
+{/*import Map from '@/components/Map';*/}
 import { seoData } from '@/lib/seoData';
 import { Metadata } from 'next';
 import React from 'react';
