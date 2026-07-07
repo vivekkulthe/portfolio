@@ -32,7 +32,6 @@ export const heroData = {
 
 export const servicesData = [
     {
-        icon: 'bi bi-database-check',
         title: 'Aligning enterprise data capabilities with business strategy to drive measurable outcomes and competitive advantage.',
         href: '/contact'
     },
