@@ -19,7 +19,7 @@ export default function ContactPage() {
         <section className="container md:max-w-[720px] lg:max-w-[960px] xl:max-w-[1320px] mx-auto px-7">
             <div className="py-16 xl:py-[70px]">
                 <Contact />
-                <Map />
+                {/*<Map />*/}
             </div>
         </section>
     )
