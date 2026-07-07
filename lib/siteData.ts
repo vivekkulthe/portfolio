@@ -36,22 +36,18 @@ export const servicesData = [
         href: '/contact'
     },
     {
-        icon: 'bi bi-signpost-2',
         title: 'Designing and scaling modern, cloud-native data platforms that enable analytics, AI, governance, and enterprise-wide decision making.',
         href: '/contact'
     },
     {
-        icon: 'bi bi-shield-check',
         title: 'Building analytics capabilities that transform data into actionable insights for executive, operational, and product decisions.',
         href: '/contact'
     },
     {
-        icon: 'bi bi-cloud-sun',
         title: 'Delivering AI-powered data products and enabling responsible adoption of AI to solve business problems and improve organizational productivity.',
         href: '/contact'
     },
     {
-        icon: 'bi bi-hurricane',
         title: 'Building and leading high-performing data organizations, establishing governance and engineering practices, and partnering with executive stakeholders to deliver business outcomes.',
         href: '/contact'
     },
@@ -474,12 +470,16 @@ export const resumeData = {
 }
 
 export const slidingTextData = [
-    'Sliding Text 1',
-    'Sliding Text 2',
-    'Sliding Text 3',
-    'Sliding Text 4',
-    'Sliding Text 5',
-    'Sliding Text 6',
+    'Data Architecture',
+    'Lakehouse Architecture',
+    'Data Modeling',
+    'Data Governance',
+    'Data Quality Frameworks',
+    'Metadata Management',
+    'Master Data Management',
+    'Enterprise Integration',
+    'Machine Learning Platforms',
+    'Data AI Solutions',
 ]
 
 export const contactData = {
