@@ -33,27 +33,27 @@ export const heroData = {
 export const servicesData = [
     {
         icon: 'bi bi-database-check',
-        title: 'Creating marketing strategies, and campaigns',
+        title: 'Aligning enterprise data capabilities with business strategy to drive measurable outcomes and competitive advantage.',
         href: '/contact'
     },
     {
         icon: 'bi bi-signpost-2',
-        title: 'Creating marketing strategies, and campaigns',
+        title: 'Designing and scaling modern, cloud-native data platforms that enable analytics, AI, governance, and enterprise-wide decision making.',
         href: '/contact'
     },
     {
         icon: 'bi bi-shield-check',
-        title: 'Creating marketing strategies, and campaigns',
+        title: 'Building analytics capabilities that transform data into actionable insights for executive, operational, and product decisions.',
         href: '/contact'
     },
     {
         icon: 'bi bi-cloud-sun',
-        title: 'Creating marketing strategies, and campaigns',
+        title: 'Delivering AI-powered data products and enabling responsible adoption of AI to solve business problems and improve organizational productivity.',
         href: '/contact'
     },
     {
         icon: 'bi bi-hurricane',
-        title: 'Enhancing brand awareness, and generating leads',
+        title: 'Building and leading high-performing data organizations, establishing governance and engineering practices, and partnering with executive stakeholders to deliver business outcomes.',
         href: '/contact'
     },
     {
