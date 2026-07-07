@@ -48,7 +48,7 @@ export const servicesData = [
         href: '/contact'
     },
     {
-        title: 'Building and leading high-performing data organizations, establishing governance and engineering practices, and partnering with executive stakeholders to deliver business outcomes.',
+        title: 'Building high-performing data organizations, strengthening governance, and partnering with executives to deliver measurable business outcomes.',
         href: '/contact'
     },
     {
@@ -101,28 +101,36 @@ export const clientsData = [
 
 export const testimonialsData = [
     {
-        quote: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt',
-        author: 'Rodney Fletcher1',
+        quote: 'AWS Certified AI Practitioner',
+        author: 'from AWS',
     },
     {
-        quote: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt',
-        author: 'Rodney Fletcher2',
+        quote: 'Microsoft Azure AI Fundamentals',
+        author: 'from Microsoft',
     },
     {
-        quote: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt',
-        author: 'Rodney Fletcher3',
+        quote: 'Snowflake Hands-On Essentials',
+        author: 'from Snowflake',
     },
     {
-        quote: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt',
-        author: 'Rodney Fletcher4',
+        quote: 'ITIL v4 Foundation',
+        author: 'from AXELOS',
     },
     {
-        quote: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt',
-        author: 'Rodney Fletcher5',
+        quote: 'Tableau Site Administrator',
+        author: 'from Tableau',
     },
     {
-        quote: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt',
-        author: 'Rodney Fletcher6',
+        quote: 'Data Landscape of GenAI for Project Managers',
+        author: 'from PMI',
+    },
+    {
+        quote: 'IBM Certified “Data Science & Machine Learning with Python',
+        author: 'from IBM',
+    },
+    {
+        quote: 'Astronomer Certification for Apache Airflow',
+        author: 'from Astronomer',
     },
 ]
 

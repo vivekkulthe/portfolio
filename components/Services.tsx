@@ -15,9 +15,11 @@ export default function Services() {
                     </div>
                 ) : (
                     <div key={index} className="relative bg-white p-8 pr-14 md:px-10 md:py-12 xl:px-12 xl:py-14 rounded-3xl shadow-customShadow hover:shadow-customShadowHover transition ease-out duration-150 dark:bg-charcoal">
+                        {/* 
                         <div className="text-charcoal/40 text-4xl mb-6 md:mb-8 lg:mb-12 dark:text-white/40">
                             <i className={service.icon}></i>
                         </div>
+                        */}
                         <h5 className="font-outfit font-medium text-charcoal text-xl dark:text-white">
                             {service.title}
                         </h5>

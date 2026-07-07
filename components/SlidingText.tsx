@@ -10,7 +10,7 @@ export default function SlidingText() {
             <Swiper
                 slidesPerView="auto"
                 spaceBetween={70}
-                speed={20000}
+                speed={5000}
                 loop={true}
                 allowTouchMove={false}
                 autoplay={{
