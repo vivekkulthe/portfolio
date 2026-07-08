@@ -145,6 +145,9 @@ export const portfolioData = {
             excerpt: '',
             thumbnail: '/images/portfolio1.png',
             client: 'vivekkulthe',
+            images: [
+                '/images/portfolio1.png'
+            ],
             projectLink: {
                 label: 'www.vivekkulthe.com',
                 url: 'https://medium.com/@vivek-kulthe/transforming-workforce-intelligence-with-ai-rethinking-compensation-benchmarking-4a86011245fc'
@@ -158,6 +161,9 @@ export const portfolioData = {
             excerpt: '',
             thumbnail: '/images/portfolio1.png',
             client: 'vivekkulthe',
+            images: [
+                '/images/portfolio2.png'
+            ],
             projectLink: {
                 label: 'www.vivekkulthe.com',
                 url: 'https://medium.com/@vivek-kulthe/transforming-workforce-intelligence-with-ai-rethinking-compensation-benchmarking-4a86011245fc'
