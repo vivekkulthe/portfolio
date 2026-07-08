@@ -63,7 +63,8 @@ export default function PortfolioPage() {
                 <div ref={portfolioRef} className="portfolio-grid grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-12 mt-8 lg:mt-12">
                     {portfolioData.projects.map((project) => (
                         <div key={project.slug} className={`portfolio-item ${project.category}`}>
-                            <Link href={`/portfolio/${project.slug}`} className="relative group block">
+                            {/* <Link href={`/portfolio/${project.slug}`} className="relative group block"> */}
+                            <a href={project.projectLink.url} target="_blank" rel="noopener noreferrer" className="relative group block" >
                                 <div className="overflow-hidden rounded-lg group-hover:scale-[0.98] transition-all ease-custom duration-500">
                                     <Image
                                         src={project.thumbnail}
@@ -80,7 +81,8 @@ export default function PortfolioPage() {
                                 <div className="z-[1] absolute right-5 bottom-5 left-5 opacity-50 transition ease-linear duration-75 group-hover:opacity-100">
                                     <h2 className="font-outfit font-semibold text-3xl text-white">{project.title}</h2>
                                 </div>
-                            </Link>
+                            {/* </Link> */}
+                            </a>
                         </div>
                     ))}
                 </div>

@@ -4,7 +4,7 @@ export const headerData = {
     navigation: [
         { name: 'About', href: '/#' },
         { name: 'Services', href: '/#services' },
-        { name: 'Portfolio', href: '/#portfolio' },
+        { name: 'Portfolio', href: '/portfolio' },
         { name: 'Resume', href: '/#resume' },
         { name: 'Contact', href: '/contact' },
        /* { name: 'Blog', href: '/blog' },*/ 
@@ -69,33 +69,33 @@ export const experienceData = {
 export const clientsData = [
     {
         logoLight: '/images/client-logo-1.png',
-        logoDark: '/images/client-logo-1.png',
-        url: '#'
+        logoDark: '/images/client-logo-1d.png',
+        url: 'https://www.atlassian.com/'
     },
     {
         logoLight: '/images/client-logo-2.png',
-        logoDark: '/images/client-logo-2.png',
-        url: '#'
+        logoDark: '/images/client-logo-2d.png',
+        url: 'https://www.accenture.com/in-en'
     },
     {
         logoLight: '/images/client-logo-3.png',
-        logoDark: '/images/client-logo-3.png',
-        url: '#'
+        logoDark: '/images/client-logo-3d.png',
+        url: 'https://www.ubs.com/in/en.html'
     },
     {
         logoLight: '/images/client-logo-4.png',
-        logoDark: '/images/client-logo-4.png',
-        url: '#'
+        logoDark: '/images/client-logo-4d.png',
+        url: 'https://www.ibm.com/in-en'
     },
     {
         logoLight: '/images/client-logo-5.png',
-        logoDark: '/images/client-logo-5.png',
-        url: '#'
+        logoDark: '/images/client-logo-5d.png',
+        url: 'https://www.wipro.com/'
     },
     {
         logoLight: '/images/client-logo-6.png',
-        logoDark: '/images/client-logo-6.png',
-        url: '#'
+        logoDark: '/images/client-logo-6d.png',
+        url: 'https://www.veritas.com/'
     },
 ]
 
@@ -144,13 +144,14 @@ export const portfolioData = {
             category: 'First',
             excerpt: 'Organisations invest significant time and money in attracting and retaining talent, yet compensation decisions are often based on outdated market surveys, fragmented data, or intuition. While most HR platforms capture enormous amounts of workforce data, very little of it is transformed into strategic intelligence.',
             excerpt2: 'Rather than viewing workforce data as operational records for payroll and HR administration, we envisioned it as a strategic business asset capable of helping organisations make better decisions about compensation, talent acquisition, retention, and workforce planning.',
-            content: '<h4 class="font-outfit font-medium text-2xl lg:text-3xl mb-2 text-charcoal dark:text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit</h4><p class="text-pColor leading-7 dark:text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>',
-            content2: '<h4 class="font-outfit font-medium text-2xl lg:text-3xl mb-2 text-charcoal dark:text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit</h4><p class="text-pColor leading-7 dark:text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>',
+            content: '<h4 class="font-outfit font-medium text-2xl lg:text-3xl mb-2 text-charcoal dark:text-white">1Lorem ipsum dolor sit amet, consectetur adipisicing elit</h4><p class="text-pColor leading-7 dark:text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>',
+            content2: '<h4 class="font-outfit font-medium text-2xl lg:text-3xl mb-2 text-charcoal dark:text-white">2Lorem ipsum dolor sit amet, consectetur adipisicing elit</h4><p class="text-pColor leading-7 dark:text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>',
+            content3: '<h4 class="font-outfit font-medium text-2xl lg:text-3xl mb-2 text-charcoal dark:text-white">3Lorem ipsum dolor sit amet, consectetur adipisicing elit</h4><p class="text-pColor leading-7 dark:text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>',
             thumbnail: '/images/portfolio1.png',
             client: 'vivekkulthe',
             projectLink: {
                 label: 'www.vivekkulthe.com',
-                url: '#'
+                url: 'https://medium.com/@vivek-kulthe/transforming-workforce-intelligence-with-ai-rethinking-compensation-benchmarking-4a86011245fc'
             },
             images: [
                 '/images/portfolio1.png'
@@ -242,15 +243,23 @@ export const portfolioData = {
                 url: 'https://www.youtube.com/watch?v=V8yu12uRpBA'
             }
         },
+        
         {
             title: '6 Project Title',
             slug: '6-project-title',
             category: 'First',
+            excerpt: '',
+            content: '',
+            content2: '',
+            thumbnail: '/images/portfolio6.png',
+            client: '',
+            /*
             excerpt: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip',
             content: '<h4 class="font-outfit font-medium text-2xl lg:text-3xl mb-2 text-charcoal dark:text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit</h4><p class="text-pColor leading-7 dark:text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>',
             content2: '<h4 class="font-outfit font-medium text-2xl lg:text-3xl mb-2 text-charcoal dark:text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit</h4><p class="text-pColor leading-7 dark:text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>',
             thumbnail: '/images/portfolio6.png',
             client: 'flatheme',
+            */
             projectLink: {
                 label: 'www.vivekkulthe.com',
                 url: '#'
@@ -262,10 +271,12 @@ export const portfolioData = {
                 thumbnail: '/images/blog-wide.png',
                 url: 'https://www.youtube.com/watch?v=V8yu12uRpBA'
             }
+            
         },
     ],
 }
 
+{/*
 export const blogData = [
     {
         title: 'Blog Post Title 1',
@@ -400,6 +411,7 @@ export const blogData = [
         }
     },
 ]
+*/}
 
 export const skillsData = [
     { name: 'Progress Bar', progress: 98 },
