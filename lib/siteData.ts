@@ -142,6 +142,7 @@ export const portfolioData = {
             title: 'Transforming Workforce Intelligence with AI: Rethinking Compensation Benchmarking',
             slug: '1-project-title',
             category: 'First',
+            excerpt: '',
             thumbnail: '/images/portfolio1.png',
             client: 'vivekkulthe',
             projectLink: {
@@ -153,7 +154,8 @@ export const portfolioData = {
         {
             title: 'Transforming Workforce Intelligence with AI: Rethinking Compensation Benchmarking',
             slug: '2-project-title',
-            category: 'First',
+            category: 'Second',
+            excerpt: '',
             thumbnail: '/images/portfolio1.png',
             client: 'vivekkulthe',
             projectLink: {
