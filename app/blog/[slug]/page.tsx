@@ -6,7 +6,7 @@ import { getBlogPostSEO } from '@/lib/seoData';
 import { Metadata } from 'next';
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
-    const slug = (await params).slug
+   /* const slug = (await params).slug */
    /* const post = blogData.find(p => p.slug === slug); */
 
     if (!post) {
@@ -36,7 +36,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 }
 
 export default async function BlogPost({ params, }: { params: Promise<{ slug: string }> }) {
-    const slug = (await params).slug
+    /* const slug = (await params).slug */
     /* const post = blogData.find(p => p.slug === slug); */
 
     if (!post) {

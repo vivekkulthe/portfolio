@@ -1,9 +1,9 @@
 import { seoData } from "@/lib/seoData";
 /* import { blogData } from "@/lib/siteData"; */
-import { truncateText } from "@/lib/utils";
+/* import { truncateText } from "@/lib/utils"; */
 import { Metadata } from "next";
-import Image from "next/image";
-import Link from "next/link";
+/* import Image from "next/image"; */
+/* import Link from "next/link"; */
 
 export const metadata: Metadata = {
     title: seoData.blog.title,
