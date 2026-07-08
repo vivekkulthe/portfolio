@@ -1,5 +1,5 @@
 import { seoData } from "@/lib/seoData";
-import { blogData } from "@/lib/siteData";
+/* import { blogData } from "@/lib/siteData"; */
 import { truncateText } from "@/lib/utils";
 import { Metadata } from "next";
 import Image from "next/image";
@@ -21,7 +21,7 @@ export default function BlogPage() {
             <div className="py-16 xl:py-[70px]">
                 <h1 className="font-outfit font-medium text-charcoal text-6xl xl:text-7xl leading-[1.2] dark:text-white">Blog Posts</h1>
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-12 mt-8 lg:mt-12">
-                    {blogData.map(post => (
+                    {/* {blogData.map(post => (
                         <div key={post.slug}>
                             <div>
                                 <Link href={`/blog/${post.slug}`} className="block relative group">
@@ -52,7 +52,7 @@ export default function BlogPage() {
                                 </div>
                             </div>
                         </div>
-                    ))}
+                    ))} */}
                 </div>
             </div>
         </div>
