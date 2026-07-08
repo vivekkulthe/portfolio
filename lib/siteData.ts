@@ -143,6 +143,8 @@ export const portfolioData = {
             slug: '1-project-title',
             category: 'First',
             excerpt: '',
+            content: '',
+            content2: '',
             thumbnail: '/images/portfolio1.png',
             client: 'vivekkulthe',
             images: [
@@ -159,6 +161,8 @@ export const portfolioData = {
             slug: '2-project-title',
             category: 'Second',
             excerpt: '',
+            content: '',
+            content2: '',
             thumbnail: '/images/portfolio1.png',
             client: 'vivekkulthe',
             images: [
