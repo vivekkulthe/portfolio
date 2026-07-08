@@ -4,7 +4,7 @@ export const headerData = {
     navigation: [
         { name: 'About', href: '/#' },
         { name: 'Services', href: '/#services' },
-        { name: 'Portfolio', href: '/portfolio' },
+        { name: 'Portfolio', href: '/#portfolio' },
         { name: 'Resume', href: '/#resume' },
         { name: 'Contact', href: '/contact' },
        /* { name: 'Blog', href: '/blog' },*/ 
@@ -139,26 +139,23 @@ export const portfolioData = {
     filterCategories: ["Show All", "First", "Second"],
     projects: [
         {
-            title: '1 Project Title',
+            title: 'Transforming Workforce Intelligence with AI: Rethinking Compensation Benchmarking',
             slug: '1-project-title',
             category: 'First',
-            excerpt: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip',
+            excerpt: 'Organisations invest significant time and money in attracting and retaining talent, yet compensation decisions are often based on outdated market surveys, fragmented data, or intuition. While most HR platforms capture enormous amounts of workforce data, very little of it is transformed into strategic intelligence.',
+            excerpt2: 'Rather than viewing workforce data as operational records for payroll and HR administration, we envisioned it as a strategic business asset capable of helping organisations make better decisions about compensation, talent acquisition, retention, and workforce planning.',
             content: '<h4 class="font-outfit font-medium text-2xl lg:text-3xl mb-2 text-charcoal dark:text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit</h4><p class="text-pColor leading-7 dark:text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>',
             content2: '<h4 class="font-outfit font-medium text-2xl lg:text-3xl mb-2 text-charcoal dark:text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit</h4><p class="text-pColor leading-7 dark:text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>',
-            thumbnail: '/images/portfolio.png',
+            thumbnail: '/images/portfolio1.png',
             client: 'vivekkulthe',
             projectLink: {
                 label: 'www.vivekkulthe.com',
                 url: '#'
             },
             images: [
-                '/images/portfolio.png',
-                '/images/portfolio.png'
+                '/images/portfolio1.png'
             ],
-            video: {
-                thumbnail: '/images/blog-wide.png',
-                url: 'https://www.youtube.com/watch?v=V8yu12uRpBA'
-            }
+            
 
         },
         {
@@ -168,14 +165,14 @@ export const portfolioData = {
             excerpt: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip',
             content: '<h4 class="font-outfit font-medium text-2xl lg:text-3xl mb-2 text-charcoal dark:text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit</h4><p class="text-pColor leading-7 dark:text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>',
             content2: '<h4 class="font-outfit font-medium text-2xl lg:text-3xl mb-2 text-charcoal dark:text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit</h4><p class="text-pColor leading-7 dark:text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>',
-            thumbnail: '/images/portfolio.png',
+            thumbnail: '/images/portfolio2.png',
             client: 'flatheme',
             projectLink: {
                 label: 'www.vivekkulthe.com',
                 url: '#'
             }, images: [
-                '/images/portfolio.png',
-                '/images/portfolio.png'
+                '/images/portfolio2.png',
+                '/images/portfolio2.png'
             ],
             video: {
                 thumbnail: '/images/blog-wide.png',
@@ -189,14 +186,14 @@ export const portfolioData = {
             excerpt: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip',
             content: '<h4 class="font-outfit font-medium text-2xl lg:text-3xl mb-2 text-charcoal dark:text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit</h4><p class="text-pColor leading-7 dark:text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>',
             content2: '<h4 class="font-outfit font-medium text-2xl lg:text-3xl mb-2 text-charcoal dark:text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit</h4><p class="text-pColor leading-7 dark:text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>',
-            thumbnail: '/images/portfolio.png',
+            thumbnail: '/images/portfolio3.png',
             client: 'flatheme',
             projectLink: {
                 label: 'www.vivekkulthe.com',
                 url: '#'
             }, images: [
-                '/images/portfolio.png',
-                '/images/portfolio.png'
+                '/images/portfolio3.png',
+                '/images/portfolio3.png'
             ],
             video: {
                 thumbnail: '/images/blog-wide.png',
@@ -210,14 +207,14 @@ export const portfolioData = {
             excerpt: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip',
             content: '<h4 class="font-outfit font-medium text-2xl lg:text-3xl mb-2 text-charcoal dark:text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit</h4><p class="text-pColor leading-7 dark:text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>',
             content2: '<h4 class="font-outfit font-medium text-2xl lg:text-3xl mb-2 text-charcoal dark:text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit</h4><p class="text-pColor leading-7 dark:text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>',
-            thumbnail: '/images/portfolio.png',
+            thumbnail: '/images/portfolio4.png',
             client: 'flatheme',
             projectLink: {
                 label: 'www.vivekkulthe.com',
                 url: '#'
             }, images: [
-                '/images/portfolio.png',
-                '/images/portfolio.png'
+                '/images/portfolio4.png',
+                '/images/portfolio4.png'
             ],
             video: {
                 thumbnail: '/images/blog-wide.png',
@@ -231,14 +228,14 @@ export const portfolioData = {
             excerpt: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip',
             content: '<h4 class="font-outfit font-medium text-2xl lg:text-3xl mb-2 text-charcoal dark:text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit</h4><p class="text-pColor leading-7 dark:text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>',
             content2: '<h4 class="font-outfit font-medium text-2xl lg:text-3xl mb-2 text-charcoal dark:text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit</h4><p class="text-pColor leading-7 dark:text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>',
-            thumbnail: '/images/portfolio.png',
+            thumbnail: '/images/portfolio5.png',
             client: 'flatheme',
             projectLink: {
                 label: 'www.vivekkulthe.com',
                 url: '#'
             }, images: [
-                '/images/portfolio.png',
-                '/images/portfolio.png'
+                '/images/portfolio5.png',
+                '/images/portfolio5.png'
             ],
             video: {
                 thumbnail: '/images/blog-wide.png',
@@ -252,14 +249,14 @@ export const portfolioData = {
             excerpt: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip',
             content: '<h4 class="font-outfit font-medium text-2xl lg:text-3xl mb-2 text-charcoal dark:text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit</h4><p class="text-pColor leading-7 dark:text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>',
             content2: '<h4 class="font-outfit font-medium text-2xl lg:text-3xl mb-2 text-charcoal dark:text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit</h4><p class="text-pColor leading-7 dark:text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>',
-            thumbnail: '/images/portfolio.png',
+            thumbnail: '/images/portfolio6.png',
             client: 'flatheme',
             projectLink: {
                 label: 'www.vivekkulthe.com',
                 url: '#'
             }, images: [
-                '/images/portfolio.png',
-                '/images/portfolio.png'
+                '/images/portfolio6.png',
+                '/images/portfolio6.png'
             ],
             video: {
                 thumbnail: '/images/blog-wide.png',
