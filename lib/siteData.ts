@@ -53,8 +53,8 @@ export const servicesData = [
         href: '/contact'
     },
     {
-        title: 'Top 10',
-        description: 'Featured in Top 10 AI Influencers in India 2026',
+        title: '', /*Top 10 */
+        description: '',
     },
    
 ]
