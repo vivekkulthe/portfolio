@@ -154,7 +154,10 @@ export const portfolioData = {
                 label: 'www.vivekkulthe.com',
                 url: 'https://medium.com/@vivek-kulthe/transforming-workforce-intelligence-with-ai-rethinking-compensation-benchmarking-4a86011245fc'
             },
-            
+            video: {
+                thumbnail: '/images/blog-wide.png',
+                url: 'https://www.youtube.com/watch?v=V8yu12uRpBA'
+            },
         },
         {
             title: 'Transforming Workforce Intelligence with AI: Rethinking Compensation Benchmarking',
@@ -171,6 +174,10 @@ export const portfolioData = {
             projectLink: {
                 label: 'www.vivekkulthe.com',
                 url: 'https://medium.com/@vivek-kulthe/transforming-workforce-intelligence-with-ai-rethinking-compensation-benchmarking-4a86011245fc'
+            },
+            video: {
+                thumbnail: '/images/blog-wide.png',
+                url: 'https://www.youtube.com/watch?v=V8yu12uRpBA'
             },
         },
     ],
