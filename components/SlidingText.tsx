@@ -24,7 +24,7 @@ export default function SlidingText() {
             >
                 {slidingTextData.map((text, index) => (
                     <SwiperSlide key={index} className="!w-auto">
-                        <h2 className="font-poppins font-semibold stroke-text text-5xl md:text-6xl xl:text-5xl leading-tight md:leading-tight xl:leading-tight opacity-25">
+                        <h2 className="font-poppins font-semibold stroke-text text-5xl md:text-5xl xl:text-5xl leading-tight md:leading-tight xl:leading-tight opacity-25">
                             {text}
                         </h2>
                     </SwiperSlide>
