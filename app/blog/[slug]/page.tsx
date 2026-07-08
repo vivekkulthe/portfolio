@@ -5,8 +5,9 @@ import GalleryWrapper from '@/components/GalleryWrapper';
 import { getBlogPostSEO } from '@/lib/seoData';
 import { Metadata } from 'next';
 
-export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
-   /* const slug = (await params).slug */
+/* export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> { */
+export async function generateMetadata(): Promise<Metadata> {
+    /* const slug = (await params).slug */
    /* const post = blogData.find(p => p.slug === slug); */
 
     if (!post) {
@@ -35,7 +36,8 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     };
 }
 
-export default async function BlogPost({ params, }: { params: Promise<{ slug: string }> }) {
+/* export default async function BlogPost({ params, }: { params: Promise<{ slug: string }> }) { */
+export default async function BlogPost() {
     /* const slug = (await params).slug */
     /* const post = blogData.find(p => p.slug === slug); */
 
