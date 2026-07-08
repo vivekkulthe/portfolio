@@ -3,7 +3,7 @@
 
 import { portfolioData } from '@/lib/siteData';
 import Image from 'next/image';
-import Link from 'next/link';
+/* import Link from 'next/link'; */
 import { useEffect, useRef } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
