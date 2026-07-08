@@ -1,4 +1,4 @@
-import { blogData } from '@/lib/siteData';
+/* import { blogData } from '@/lib/siteData'; */
 import { notFound } from 'next/navigation';
 import Image from 'next/image';
 import GalleryWrapper from '@/components/GalleryWrapper';
