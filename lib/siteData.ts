@@ -23,6 +23,7 @@ export const heroData = {
     avatarSrc: '/images/avatar.png',
     title: "Driving Data-Driven Decisions and AI-Powered Growth",
     hireStatus: 'Download Resume',
+    resumeUrl: '/Vivek_Kulthe_Resume.pdf',
     socialLinks: [
         { bootstrapIcons: "bi bi-messenger", href: "https://m.me/vivek.kulthe" },
         { bootstrapIcons: "bi bi-instagram", href: "https://ig.me/m/vivek.kulthe" },
