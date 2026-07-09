@@ -136,8 +136,8 @@ export const testimonialsData = [
 ]
 
 export const portfolioData = {
-    title: 'Featured Initiatives',
-    filterCategories: ["Show All", "First", "Second"],
+    title: 'Recent Projects',
+    filterCategories: ["Show All", "Technology", "Leadership"],
     projects: [
         {
             title: 'Transforming Workforce Intelligence with AI: Rethinking Compensation Benchmarking',
