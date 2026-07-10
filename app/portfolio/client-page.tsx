@@ -79,7 +79,7 @@ export default function PortfolioPage() {
                                     {project.category}
                                 </div>
                                 <div className="z-[1] absolute right-5 bottom-5 left-5 opacity-50 transition ease-linear duration-75 group-hover:opacity-100">
-                                    <h2 className="font-outfit font-semibold text-3xl text-white">{project.title}</h2>
+                                    <h2 className="font-outfit font-semibold text-3xl text-gray-500">{project.title}</h2>
                                 </div>
                             {/* </Link> */}
                             </a>

@@ -102,7 +102,7 @@ export default function Portfolio() {
                                         </div>
                                         <div className="z-[1] absolute top-5 right-5 bg-charcoal/30 px-4 py-2 rounded-full backdrop-blur-[5px] font-outfit font-medium uppercase text-sm text-white tracking-[1px] invisible opacity-0 transition-all ease-linear duration-100 group-hover:visible group-hover:opacity-100">{project.category}</div>
                                         <div className="z-[1] absolute right-5 bottom-5 left-5 opacity-50 transition ease-linear duration-75 group-hover:opacity-100">
-                                            <h2 className="font-outfit font-semibold text-3xl text-white">{project.title}</h2>
+                                            <h2 className="font-outfit font-semibold text-3xl text-gray-500">{project.title}</h2>
                                         </div>
                                     {/*</Link>*/}
                                     </a>

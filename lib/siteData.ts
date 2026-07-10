@@ -53,8 +53,9 @@ export const servicesData = [
         href: '/contact'
     },
     {
-        title: '', /*Top 10 */
-        description: '',
+        title: 'Something interesting coming soon...', /* 'Top 10' */
+        description: '', /* 'Recognized among the "Top 10 AI Leaders in India (2026)" for pioneering trusted enterprise data foundations and scalable AI solutions.' */
+        
     },
    
 ]
@@ -110,6 +111,10 @@ export const testimonialsData = [
         author: 'from Microsoft',
     },
     {
+        quote: 'Member of Technical Committee on Data Engineering (TCDE)',
+        author: 'branch of IEEE Computer Society',
+    },
+    {
         quote: 'Snowflake Hands-On Essentials',
         author: 'from Snowflake',
     },
@@ -129,10 +134,6 @@ export const testimonialsData = [
         quote: 'IBM Certified “Data Science & Machine Learning with Python',
         author: 'from IBM',
     },
-    {
-        quote: 'Astronomer Certification for Apache Airflow',
-        author: 'from Astronomer',
-    },
 ]
 
 export const portfolioData = {
@@ -140,9 +141,9 @@ export const portfolioData = {
     filterCategories: ["Show All", "Technology", "Leadership"],
     projects: [
         {
-            title: 'Transforming Workforce Intelligence with AI: Rethinking Compensation Benchmarking',
+            title: 'Transforming Workforce Intelligence with AI',
             slug: '1-project-title',
-            category: 'First',
+            category: 'Technology',
             excerpt: '',
             content: '',
             content2: '',
@@ -161,20 +162,20 @@ export const portfolioData = {
             },
         },
         {
-            title: 'Transforming Workforce Intelligence with AI: Rethinking Compensation Benchmarking',
+            title: 'From Customer Feedback to Product Intelligence',
             slug: '2-project-title',
-            category: 'Second',
+            category: 'Technology',
             excerpt: '',
             content: '',
             content2: '',
-            thumbnail: '/images/portfolio1.png',
+            thumbnail: '/images/portfolio2.png',
             client: 'vivekkulthe',
             images: [
                 '/images/portfolio2.png'
             ],
             projectLink: {
                 label: 'www.vivekkulthe.com',
-                url: 'https://medium.com/@vivek-kulthe/transforming-workforce-intelligence-with-ai-rethinking-compensation-benchmarking-4a86011245fc'
+                url: 'https://vivek-kulthe.medium.com/from-customer-feedback-to-product-intelligence-67a4dea8b60c'
             },
             video: {
                 thumbnail: '/images/blog-wide.png',
@@ -342,25 +343,25 @@ export const resumeData = {
             period: '2020 - 2024',
             title: 'Senior Engineering Manager - Data',
             company: 'atlassian',
-            description: 'Built and scaled a global Data Engineering organization, modernizing cloud data platforms, enabling $1M+ ARR opportunities, and optimizing technology costs.',
+            description: 'Built and scaled a global Data Engineering organization, leading enterprise cloud modernization, data governance, and AI-ready platforms that accelerated business growth, enabled $1M+ ARR opportunities, and reduced technology costs.',
         },
         {
             period: '2017 - 2020',
             title: 'Senior Manager Data & BI',
             company: 'veritas',
-            description: 'Transformed enterprise Data Engineering, Business Intelligence, and IT capabilities through cloud modernization, strengthening data trust and operational efficiency.',
+            description: 'Led enterprise Data Engineering, Analytics, and IT transformation, modernizing cloud data platforms on AWS while strengthening data trust, operational efficiency, and organizational capabilities..',
         },
         {
             period: '2015 - 2017',
             title: 'Assistant Vice President',
             company: 'credit-suisse',
-            description: 'Delivered enterprise analytics and cloud modernization initiatives for Risk & Finance, improving platform reliability, governance, and business decision-making.',
+            description: 'Architected and led enterprise BI platforms and led Oracle Cloud migration initiatives for Risk & Finance, improving platform reliability, scalability, governance, and data-driven decision-making.',
         },
         {
             period: '2014 - 2015',
             title: 'Software Engineering Associate Manager',
             company: 'accenture',
-            description: 'Managed enterprise BI programs for global clients, delivering scalable analytics solutions that enhanced reporting, operational visibility, and business value.',
+            description: 'Managed enterprise Oracle BI initiatives from design through delivery, leading teams to build scalable data models, ETL pipelines, and executive reporting solutions that increased business insight and delivery excellence.',
         },
         {
             period: '2010 - 2013',
