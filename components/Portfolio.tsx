@@ -34,7 +34,7 @@ export default function Portfolio() {
             <div className="bg-charcoal overflow-hidden w-full py-[70px] rounded-3xl">
                 <div className="container max-w-[1320px] mx-auto px-7">
                     <div className="space-y-4 xl:space-y-0 xl:flex xl:justify-between xl:items-end">
-                        <h2 className="relative font-poppins font-semibold text-5xl md:text-6xl xl:text-7xl leading-tight stroke-text-white after:content-[''] after:absolute after:top-0 after:right-0 after:-bottom-[9px] after:left-0 after:bg-gradient-to-t after:from-charcoal after:to-transparent">
+                        <h2 className="relative font-poppins font-semibold text-5xl md:text-5xl xl:text-5xl leading-tight stroke-text-white after:content-[''] after:absolute after:top-0 after:right-0 after:-bottom-[9px] after:left-0 after:bg-gradient-to-t after:from-charcoal after:to-transparent">
                             {portfolioData.title}
                         </h2>
 

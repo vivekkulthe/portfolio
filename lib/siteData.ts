@@ -22,8 +22,8 @@ export const headerData = {
 export const heroData = {
     avatarSrc: '/images/avatar.png',
     title: "Driving Data-Driven Decisions and AI-Powered Growth",
-    hireStatus: 'Download Resume',
-    resumeUrl: '/Vivek_Kulthe_Resume.pdf',
+    hireStatus: 'Visit My LinkedIn Profile',
+    resumeUrl: 'https://www.linkedin.com/in/vivekkulthe/', /* '/Vivek_Kulthe_Resume.pdf', */
     socialLinks: [
         { bootstrapIcons: "bi bi-messenger", href: "https://m.me/vivek.kulthe" },
         { bootstrapIcons: "bi bi-instagram", href: "https://ig.me/m/vivek.kulthe" },
@@ -103,41 +103,29 @@ export const clientsData = [
 
 export const testimonialsData = [
     {
-        quote: 'AWS Certified AI Practitioner',
-        author: 'from AWS',
+        quote: 'IEEE Computer Society TCDE (Technical Committee on Data Engineering)',
+        author: 'Member',
     },
     {
-        quote: 'Microsoft Azure AI Fundamentals',
-        author: 'from Microsoft',
+        quote: "The Artificial intelligence & Data Analytics Network (World's No. 1 Community For AI & Data Leaders)",
+        author: 'Member',
     },
     {
-        quote: 'Member of Technical Committee on Data Engineering (TCDE)',
-        author: 'branch of IEEE Computer Society',
-    },
-    {
-        quote: 'Snowflake Hands-On Essentials',
-        author: 'from Snowflake',
+        quote: 'Linux Foundation : Artificial Intelligence & Data Foundation',
+        author: 'Associate Member',
     },
     {
         quote: 'ITIL v4 Foundation',
         author: 'from AXELOS',
     },
     {
-        quote: 'Tableau Site Administrator',
-        author: 'from Tableau',
-    },
-    {
         quote: 'Data Landscape of GenAI for Project Managers',
-        author: 'from PMI',
-    },
-    {
-        quote: 'IBM Certified “Data Science & Machine Learning with Python',
-        author: 'from IBM',
+        author: 'from Project Management Institute (PMI)',
     },
 ]
 
 export const portfolioData = {
-    title: 'Recent Projects',
+    title: 'Latest Works',
     filterCategories: ["Show All", "Technology", "Leadership"],
     projects: [
         {
