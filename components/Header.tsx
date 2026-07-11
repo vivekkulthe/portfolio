@@ -109,7 +109,7 @@ export default function Header() {
             </nav>
             {/* Logo */}
             <div className="absolute top-1/2 right-0 -translate-y-1/2">
-                <h3 className="text-3xl font-outfit font-semibold uppercase tracking-wider text-charcoal dark:text-white">
+                <h3 className="text-2xl font-outfit font-semibold uppercase tracking-wider text-blue-500 dark:text-blue-500">
                     <Link href="/">
                         {headerData.logo}
                     </Link>
