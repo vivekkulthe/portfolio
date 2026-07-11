@@ -20,7 +20,8 @@ export default function Contact() {
         e.preventDefault();
         setStatus('loading');
         try {
-            const response = await fetch('/api/contact', {
+            {/* const response = await fetch('/api/contact', { */}
+            const response = await fetch('https://formspree.io/f/mpzeynjd', {    
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify(formData),
@@ -62,6 +63,7 @@ export default function Contact() {
                     {/* Contact Form */}
                     <div className="contact-form">
                         <form className="space-y-4" id="contactform" onSubmit={handleSubmit}>
+                        {/* <form className="space-y-4" id="contactform" action="https://formspree.io/f/mpzeynjd" method="POST">  */}
                             <div className="flex w-full space-x-4">
                                 <div className="w-1/2">
                                     <input
