@@ -10,9 +10,10 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        "opensans": ['Open Sans', 'sans-serif'],
-        "outfit": ['Outfit', 'sans-serif'],
-        "poppins": ['Poppins', 'sans-serif'],
+        "opensans": ['Onest', 'sans-serif'], /*Open Sans*/
+        "outfit": ['Onest', 'sans-serif'], /*Outfit*/
+        "poppins": ['Onest', 'sans-serif'], /*Poppins*/
+
       },
       colors: {
         'bodyBg': '#f1f5fa',

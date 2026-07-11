@@ -91,11 +91,11 @@ export default function Experience() {
                         {testimonialsData.map((testimonial, index) => (
                             <SwiperSlide key={index} className="space-y-3">
                                 <div className="text-yellow-400">
-                                    <i className="bi bi-mortarboard-fill text-golden-yellow"></i>
-                                    <i className="bi bi-mortarboard-fill text-golden-yellow"></i>
-                                    <i className="bi bi-mortarboard-fill text-golden-yellow"></i>
-                                    <i className="bi bi-mortarboard-fill text-golden-yellow"></i>
-                                    <i className="bi bi-mortarboard-fill text-golden-yellow"></i>
+                                    <i className="bi bi-person-badge-fill text-gray-900"></i>
+                                    <i className="bi bi-person-badge-fill text-gray-900"></i>
+                                    <i className="bi bi-person-badge-fill text-gray-900"></i>
+                                    <i className="bi bi-person-badge-fill text-gray-900"></i>
+                                    <i className="bi bi-person-badge-fill text-gray-900"></i>
                                 </div>
                                 <p className="text-pColor leading-7 dark:text-white/80">{testimonial.quote}</p>
                                 <h5 className="font-outfit font-medium text-xl text-charcoal dark:text-white">{testimonial.author}</h5>
