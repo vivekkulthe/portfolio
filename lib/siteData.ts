@@ -114,14 +114,6 @@ export const testimonialsData = [
         quote: 'Linux Foundation : Artificial Intelligence & Data Foundation',
         author: 'Associate Member',
     },
-    {
-        quote: 'ITIL v4 Foundation',
-        author: 'from AXELOS',
-    },
-    {
-        quote: 'Data Landscape of GenAI for Project Managers',
-        author: 'from Project Management Institute (PMI)',
-    },
 ]
 
 export const portfolioData = {
