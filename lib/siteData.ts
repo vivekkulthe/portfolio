@@ -117,7 +117,7 @@ export const testimonialsData = [
 ]
 
 export const portfolioData = {
-    title: 'Latest Works',
+    title: 'Case Studies',
     filterCategories: ["Show All", "Technology", "Leadership"],
     projects: [
         {

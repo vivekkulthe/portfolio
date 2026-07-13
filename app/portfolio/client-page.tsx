@@ -44,7 +44,7 @@ export default function PortfolioPage() {
             <div className="py-16 xl:py-[70px]">
                 <div className="lg:flex lg:justify-between lg:items-end space-y-4 lg:space-y-0">
                     <div>
-                        <h1 className="font-outfit font-medium text-charcoal text-5xl xl:text-5xl leading-[1.2] dark:text-white">Latest Works</h1>
+                        <h1 className="font-outfit font-medium text-charcoal text-5xl xl:text-5xl leading-[1.2] dark:text-white">Case Studies</h1>
                     </div>
                     <div>
                         <ul className="filter space-x-1">
