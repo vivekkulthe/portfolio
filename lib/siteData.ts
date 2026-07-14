@@ -33,30 +33,30 @@ export const heroData = {
 
 export const servicesData = [
     {
-        title: 'Aligning enterprise data capabilities with business strategy to drive measurable outcomes and competitive advantage.',
+        title: '', /*'10 Most Inspiring AI Leaders',*/
+        description: '', /*'Featured in 10 Most Inspiring AI Leaders in India 2026 by Corporate Trendz Magazine',*/ 
+    },
+    {
+        title: 'Aligning data, analytics, and AI strategy with business goals to deliver measurable outcomes.',
         href: '/contact'
     },
     {
-        title: 'Designing and scaling modern, cloud-native data platforms that enable analytics, AI, governance, and enterprise-wide decision making.',
+        title: 'Building scalable cloud-native data platforms that accelerate analytics, AI, and trusted decision-making.',
         href: '/contact'
     },
     {
-        title: 'Building analytics capabilities that transform data into actionable insights for executive, operational, and product decisions.',
+        title: 'Building analytics capabilities that turn data into insights for executive, operational, and product decisions.',
         href: '/contact'
     },
     {
-        title: 'Delivering AI-powered data products and enabling responsible adoption of AI to solve business problems and improve organizational productivity.',
+        title: 'Delivering AI-powered data products and enabling responsible AI adoption for measurable business impact.',
         href: '/contact'
     },
     {
-        title: 'Building high-performing data organizations, strengthening governance, and partnering with executives to deliver measurable business outcomes.',
+        title: 'Building high-performing global data organizations that scale talent, foster innovation, and accelerate growth.',
         href: '/contact'
     },
-    {
-        title: 'Something interesting coming soon...', /* 'Top 10' */
-        description: '', /* 'Recognized among the "Top 10 AI Leaders in India (2026)" for pioneering trusted enterprise data foundations and scalable AI solutions.' */
-        
-    },
+    
    
 ]
 
