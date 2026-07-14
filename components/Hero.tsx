@@ -21,7 +21,8 @@ export default function Hero() {
                 </div>
             </div>
             <div className="md:w-4/6 xl:w-3/4 space-y-5 md:order-1">
-                <h1 className="font-outfit font-medium text-charcoal text-5xl leading-[1.2] dark:text-white">{heroData.title}</h1>
+                {/* <h1 className="font-outfit font-medium text-charcoal text-5xl leading-[1.2] dark:text-white">{heroData.title}</h1> */}
+                <h1 className="font-outfit font-medium text-5xl leading-[1.2] text-transparent [-webkit-text-stroke:1.5px_#1f2937] dark:[-webkit-text-stroke:1.5px_#ffffff]"> {heroData.title} </h1>
                    <a href={heroData.resumeUrl} download className="inline-flex items-center bg-white/30 px-6 py-3 rounded-full border border-charcoal/20 border-dashed text-blue-500 dark:bg-charcoal/30 dark:border-white/30 dark:text-blue-500/80">
                     <span className="relative inline-block w-2 h-2 bg-green-400 rounded-full me-3 before:content-[''] before:absolute before:top-0 before:right-0 before:bottom-0 before:left-0 before:bg-green-400 before:rounded-full before:animate-hireDot"></span> 
                     <span>{heroData.hireStatus}</span>
