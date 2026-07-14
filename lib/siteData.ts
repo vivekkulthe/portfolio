@@ -112,7 +112,7 @@ export const testimonialsData = [
     },
     {
         quote: 'Linux Foundation : Artificial Intelligence & Data Foundation',
-        author: 'Associate Member',
+        author: 'Contributor',
     },
 ]
 
