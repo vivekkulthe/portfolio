@@ -16,7 +16,7 @@ export const headerData = {
         { bootstrapIcons: "bi bi-twitter-x", href: "https://twitter.com/messages/compose?recipient_id=vivekkulthe" },
         { bootstrapIcons: "bi bi-linkedin", href: "https://www.linkedin.com/in/vivekkulthe/" },
     ],
-    logo: 'vivek kulthe',
+    logo: '<vivek/kulthe>',
 }
 
 export const heroData = {

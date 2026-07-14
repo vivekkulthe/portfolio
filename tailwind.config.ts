@@ -36,6 +36,10 @@ export default {
         'custom': 'cubic-bezier(0.165, 0.84, 0.44, 1)',
       },
       keyframes: {
+        'cursor-blink': {
+          '0%, 49%': { opacity: '1' },
+          '50%, 100%': { opacity: '0' },
+        },
         lineout: {
           '0%' : {
             transform: 'scaleX(1)',
@@ -78,6 +82,7 @@ export default {
         },
       },
       animation: {
+        'cursor-blink': 'cursor-blink 1s step-end infinite',
         lineOut: 'lineout 0.3s cubic-bezier(0.165, 0.84, 0.44, 1) both',
         lineIn: 'linein 0.3s cubic-bezier(0.165, 0.84, 0.44, 1) both',
         hireDot: 'scaleDot 1500ms infinite linear',

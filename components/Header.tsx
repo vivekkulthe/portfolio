@@ -109,10 +109,12 @@ export default function Header() {
             </nav>
             {/* Logo */}
             <div className="absolute top-1/2 right-0 -translate-y-1/2">
-                <h3 className="text-2xl font-outfit font-semibold uppercase tracking-wider text-blue-500 dark:text-blue-500">
+{/*                <h3 className="text-2xl font-outfit font-semibold uppercase tracking-wider text-blue-500 dark:text-blue-500"> */}
+                   <h3 className="text-4xl text-blue-500 dark:text-blue-500" style={{ fontFamily: "'Roboto Mono', monospace" }}>
                     <Link href="/">
                         {headerData.logo}
                     </Link>
+                    <span className="animate-cursor-blink" aria-hidden="true">_</span>
                 </h3>
             </div>
         </div>
