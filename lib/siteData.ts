@@ -103,6 +103,18 @@ export const clientsData = [
 
 export const testimonialsData = [
     {
+        quote: 'AWS Certified AI Practitioner',
+        author: 'Amazon Web Services (AWS)',
+    },
+    {
+        quote: 'Microsoft Certified: Azure AI Fundamentals',
+        author: 'Microsoft',
+    },
+    {
+        quote: 'Data Landscape of GenAI for Project Managers',
+        author: 'Project Management Institute',
+    },
+    {
         quote: 'IEEE Computer Society TCDE (Technical Committee on Data Engineering)',
         author: 'Member',
     },
@@ -111,8 +123,28 @@ export const testimonialsData = [
         author: 'Member',
     },
     {
-        quote: 'Linux Foundation : Artificial Intelligence & Data Foundation',
-        author: 'Contributor',
+        quote: 'Ethics and Governance of Artificial Intelligence',
+        author: 'World Health Organization',
+    },
+    {
+        quote: 'IT Information Library Foundations (ITIL® 4) Certification',
+        author: 'AXELOS Global Best Practice',
+    },
+    {
+        quote: 'Snowflake Hands On Essentials - Data Warehouse',
+        author: 'Snowflake',
+    },
+    {
+        quote: "IBM Certified 'Machine Learning with Python'",
+        author: 'IBM',
+    },
+    {
+        quote: 'Tableau Site Administrator',
+        author: 'Tableau',
+    },
+    {
+        quote: "Analyzing and Visualizing Data with Microsoft Power BI",
+        author: 'Microsoft',
     },
 ]
 
@@ -364,12 +396,12 @@ export const resumeData = {
         },
         {
             degree: 'Master of Computer Management',
-            institution: 'University of Pune',
+            institution: 'Symbiosis Institute, University of Pune',
             icon: 'bi bi-mortarboard',
         },
         {
             degree: 'Bachelor of Electronics Science',
-            institution: 'University of Pune',
+            institution: 'Fergusson College, University of Pune',
             icon: 'bi bi-mortarboard',
         },
     ],
