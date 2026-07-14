@@ -110,7 +110,7 @@ export default function Header() {
             {/* Logo */}
             <div className="absolute top-1/2 right-0 -translate-y-1/2">
 {/*                <h3 className="text-2xl font-outfit font-semibold uppercase tracking-wider text-blue-500 dark:text-blue-500"> */}
-                   <h3 className="text-4xl text-blue-500 dark:text-blue-500" style={{ fontFamily: "'Roboto Mono', monospace" }}>
+                   <h3 className="text-2xl text-blue-500 dark:text-blue-500" style={{ fontFamily: "'Roboto Mono', monospace" }}>
                     <Link href="/">
                         {headerData.logo}
                     </Link>
