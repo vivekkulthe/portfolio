@@ -1,53 +1,133 @@
-interface SEOMetadata {
-    title: string;
-    description: string;
-    keywords: string[];
-    canonicalUrl: string;
-}
+import type { Metadata } from "next";
 
-interface PageSEO {
-    [key: string]: SEOMetadata;
-}
+const siteUrl = new URL("https://www.vivekkulthe.com");
+const defaultOgImage = "/images/og-vivek-kulthe.jpg";
 
-const siteUrl = 'http://localhost:3000';
-
-export const seoData: PageSEO = {
-    home: {
-        title: '<vivek/kulthe>',
-        description: 'Data & AI Executive | Building Enterprise Data Platforms, Analytics Organizations, and AI-Enabled Businesses',
-        keywords: ['home', 'welcome', 'main'],
-        canonicalUrl: siteUrl,
-    },
-    contact: {
-        title: 'Contact | <vivek/kulthe>',
-        description: 'Get in touch with us for inquiries or support.',
-        keywords: ['contact', 'support', 'inquiries'],
-        canonicalUrl: `${siteUrl}/contact`,
-    },
-    blog: {
-        title: 'Blog | <vivek/kulthe>',
-        description: 'Read our latest articles and stay updated with our blog.',
-        keywords: ['blog', 'articles', 'news'],
-        canonicalUrl: `${siteUrl}/blog`,
-    },
-    portfolio: {
-        title: 'Case Studies | <vivek/kulthe>',
-        description: 'Explore our portfolio of projects and works.',
-        keywords: ['portfolio', 'projects', 'works'],
-        canonicalUrl: `${siteUrl}/portfolio`,
-    },
+type PageSEOInput = {
+  title: string;
+  description: string;
+  path: string;
+  keywords?: string[];
+  type?: "website" | "article";
+  image?: string;
 };
 
-export const getPortfolioProjectSEO = (id: string, title: string, excerpt: string): SEOMetadata => ({
-    title: `${title} | Case Studies | <vivek/kulthe>`,
-    description: excerpt,
-    keywords: ['portfolio', 'project', title.toLowerCase()],
-    canonicalUrl: `${siteUrl}/portfolio/${id}`,
-});
+function createMetadata({
+  title,
+  description,
+  path,
+  keywords = [],
+  type = "website",
+  image = defaultOgImage,
+}: PageSEOInput): Metadata {
+  const canonicalUrl = new URL(path, siteUrl).toString();
 
-export const getBlogPostSEO = (slug: string, title: string, excerpt: string): SEOMetadata => ({
-    title: `${title} | Blog | <vivek/kulthe>`,
-    description: excerpt,
-    keywords: ['blog', 'article', ...title.toLowerCase().split(' ')],
-    canonicalUrl: `${siteUrl}/blog/${slug}`,
-});
+  return {
+    title,
+    description,
+    keywords,
+    authors: [
+      {
+        name: "Vivek Kulthe",
+        url: siteUrl.toString(),
+      },
+    ],
+    alternates: {
+      canonical: canonicalUrl,
+    },
+    robots: {
+      index: true,
+      follow: true,
+    },
+    openGraph: {
+      title,
+      description,
+      url: canonicalUrl,
+      type,
+      siteName: "Vivek Kulthe",
+      images: [
+        {
+          url: image,
+          width: 1200,
+          height: 630,
+          alt: `${title} | Vivek Kulthe`,
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+      images: [image],
+    },
+  };
+}
+
+export const seoData = {
+  home: createMetadata({
+    title: "Vivek Kulthe | Head of Data Engineering & AI Executive",
+    description:
+      "Data engineering and AI executive leading cloud data platforms, analytics organizations, decision intelligence, and enterprise transformation.",
+    path: "/",
+    keywords: [
+      "Vivek Kulthe",
+      "Head of Data Engineering",
+      "Data Engineering",
+      "Analytics",
+      "Artificial Intelligence",
+      "Executive Leadership",
+      "Cloud Data Platforms",
+      "Decision Intelligence",
+      "Enterprise Data Platforms",
+    ],
+  }),
+
+  contact: createMetadata({
+    title: "Contact Vivek Kulthe | Data Engineering Executive",
+    description:
+      "Contact Vivek Kulthe for data engineering leadership, AI strategy, advisory, speaking, and enterprise data platform collaboration.",
+    path: "/contact",
+    keywords: [
+      "Contact Vivek Kulthe",
+      "Data Engineering Leadership",
+      "AI Strategy",
+      "Executive Advisory",
+    ],
+  }),
+
+  portfolio: createMetadata({
+    title: "Data Engineering & AI Case Studies | Vivek Kulthe",
+    description:
+      "Explore data engineering, analytics and AI case studies—from cloud data platforms to decision intelligence and organizational transformation.",
+    path: "/portfolio",
+    keywords: [
+      "Data Engineering Case Studies",
+      "AI Case Studies",
+      "Cloud Data Platforms",
+      "Analytics Leadership",
+    ],
+  }),
+};
+
+export function getPortfolioProjectMetadata(
+  slug: string,
+  title: string,
+  description: string,
+  image = defaultOgImage,
+): Metadata {
+  return createMetadata({
+    title: `${title} | Vivek Kulthe Case Study`,
+    description,
+    path: `/portfolio/${slug}`,
+    image,
+    type: "article",
+    keywords: [
+      title,
+      "Data Engineering",
+      "Analytics",
+      "Artificial Intelligence",
+      "Enterprise Data Platforms",
+      "Executive Leadership",
+    ],
+  });
+}

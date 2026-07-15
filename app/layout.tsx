@@ -9,13 +9,8 @@ import CursorGradient from "@/components/CursorGradient";
 import { seoData } from "@/lib/seoData";
 
 export const metadata: Metadata = {
-    title: seoData.home.title,
-    description: seoData.home.description,
-    openGraph: {
-        title: seoData.home.title,
-        description: seoData.home.description,
-    },
-    keywords: seoData.home.keywords,
+  metadataBase: new URL("https://www.vivekkulthe.com"),
+  ...seoData.home,
 };
 
 export default function RootLayout({

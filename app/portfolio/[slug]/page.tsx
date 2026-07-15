@@ -2,7 +2,7 @@ import { portfolioData } from '@/lib/siteData';
 import { notFound } from 'next/navigation';
 import Image from 'next/image';
 import GalleryWrapper from '@/components/GalleryWrapper';
-import { getPortfolioProjectSEO } from '@/lib/seoData';
+import { getPortfolioProjectMetadata } from "@/lib/seoData";
 import { Metadata } from 'next';
 
 export async function generateMetadata({ params, }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
@@ -15,23 +15,12 @@ export async function generateMetadata({ params, }: { params: Promise<{ slug: st
         };
     }
 
-    const seo = getPortfolioProjectSEO(slug, project.title, project.excerpt);
-
-    return {
-        title: seo.title,
-        description: seo.description,
-        keywords: seo.keywords,
-        openGraph: {
-            title: seo.title,
-            description: seo.description,
-            type: 'article',
-        },
-        twitter: {
-            card: 'summary_large_image',
-            title: seo.title,
-            description: seo.description,
-        },
-    };
+    return getPortfolioProjectMetadata(
+  slug,
+  project.title,
+  project.excerpt,
+  project.thumbnail,
+);
 }
 
 export default async function PortfolioProject({ params, }: { params: Promise<{ slug: string }> }) {
