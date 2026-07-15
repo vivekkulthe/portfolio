@@ -65,7 +65,7 @@ function createMetadata({
 
 export const seoData = {
   home: createMetadata({
-    title: "Vivek Kulthe | Head of Data Engineering & AI Executive",
+    title: "Vivek Kulthe | Head of Data Engineering, Analytics & AI Executive",
     description:
       "Data engineering and AI executive leading cloud data platforms, analytics organizations, decision intelligence, and enterprise transformation.",
     path: "/",
