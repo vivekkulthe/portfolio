@@ -349,13 +349,13 @@ export const resumeData = {
             period: '2025 - Present',
             title: 'Head of Data Engineering',
             company: 'jisr',
-            description: 'Driving Data Engineering, Analytics, and AI for a global HR Tech SaaS platform, delivering AI-powered data products that enable workforce intelligence and business growth.',
+            description: 'Driving Data Engineering and AI for a global HR Tech SaaS platform, delivering AI-powered data products that enable workforce intelligence and business growth.',
         },
         {
             period: '2020 - 2024',
             title: 'Senior Engineering Manager - Data',
             company: 'atlassian',
-            description: 'Built and scaled a global Data Engineering organization, leading enterprise cloud modernization, data governance, and AI-ready platforms that accelerated business growth, enabled $1M+ ARR opportunities, and reduced technology costs.',
+            description: 'Built and scaled a global Data Engineering & Analytics organization, leading enterprise cloud modernization, data governance, and AI-ready platforms that accelerated business growth, enabled $1M+ ARR opportunities, and reduced technology costs.',
         },
         {
             period: '2017 - 2020',
