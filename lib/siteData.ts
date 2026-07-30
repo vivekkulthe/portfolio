@@ -1,5 +1,5 @@
 export const headerData = {
-    phoneNumbers: ['+44 7721 008214'],
+    phoneNumbers: ['+44 7721 xx8214'],
     email: 'contact@vivekkulthe.com',
     navigation: [
         { name: 'About', href: '/#about' },
@@ -170,7 +170,7 @@ export const portfolioData = {
             },
             video: {
                 thumbnail: '/images/blog-wide.png',
-                url: 'https://www.youtube.com/watch?v=V8yu12uRpBA'
+                url: 'https://www.youtube.com/watch?v=0Ec0tgdpDEU'
             },
         },
         {
@@ -191,7 +191,7 @@ export const portfolioData = {
             },
             video: {
                 thumbnail: '/images/blog-wide.png',
-                url: 'https://www.youtube.com/watch?v=V8yu12uRpBA'
+                url: 'https://www.youtube.com/watch?v=0Ec0tgdpDEU'
             },
         },
         {
@@ -212,7 +212,7 @@ export const portfolioData = {
             },
             video: {
                 thumbnail: '/images/blog-wide.png',
-                url: 'https://www.youtube.com/watch?v=V8yu12uRpBA'
+                url: 'https://www.youtube.com/watch?v=0Ec0tgdpDEU'
             },
         },
         {
@@ -233,7 +233,7 @@ export const portfolioData = {
             },
             video: {
                 thumbnail: '/images/blog-wide.png',
-                url: 'https://www.youtube.com/watch?v=V8yu12uRpBA'
+                url: 'https://www.youtube.com/watch?v=0Ec0tgdpDEU'
             },
         },
         {
@@ -254,7 +254,7 @@ export const portfolioData = {
             },
             video: {
                 thumbnail: '/images/blog-wide.png',
-                url: 'https://www.youtube.com/watch?v=V8yu12uRpBA'
+                url: 'https://www.youtube.com/watch?v=0Ec0tgdpDEU'
             },
         },
         {
@@ -275,7 +275,7 @@ export const portfolioData = {
             },
             video: {
                 thumbnail: '/images/blog-wide.png',
-                url: 'https://www.youtube.com/watch?v=V8yu12uRpBA'
+                url: 'https://www.youtube.com/watch?v=0Ec0tgdpDEU'
             },
         },
     ],
@@ -505,7 +505,7 @@ export const slidingTextData = [
 ]
 
 export const contactData = {
-    phoneNumbers: ['+44 7721 008214'],
+    phoneNumbers: ['+44 7721 xx8214'],
     emails: ["contact@vivekkulthe.com"],
     address: ["https://www.linkedin.com/in/vivekkulthe"],
 }
