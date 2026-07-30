@@ -196,7 +196,7 @@ export const portfolioData = {
         },
         {
             title: 'Building an AI-Ready Data Platform',
-            slug: '2-project-title',
+            slug: '3-project-title',
             category: 'Technology',
             excerpt: 'How Vivek Kulthe applied AI and data engineering to improve workforce intelligence, compensation benchmarking, and business decision-making.',
             content: '',
@@ -209,6 +209,27 @@ export const portfolioData = {
             projectLink: {
                 label: 'www.vivekkulthe.com',
                 url: 'https://vivek-kulthe.medium.com/building-an-ai-ready-data-platform-f329bd708a69'
+            },
+            video: {
+                thumbnail: '/images/blog-wide.png',
+                url: 'https://www.youtube.com/watch?v=V8yu12uRpBA'
+            },
+        },
+        {
+            title: 'Rethinking How Organizations Use Data',
+            slug: '4-project-title',
+            category: 'Technology',
+            excerpt: 'How Vivek Kulthe applied AI and data engineering to improve workforce intelligence, compensation benchmarking, and business decision-making.',
+            content: '',
+            content2: '',
+            thumbnail: '/images/portfolio4.png',
+            client: 'vivekkulthe',
+            images: [
+                '/images/portfolio4.png'
+            ],
+            projectLink: {
+                label: 'www.vivekkulthe.com',
+                url: 'https://vivek-kulthe.medium.com/data-products-not-dashboard-rethinking-how-organisations-use-data-773b00419acc'
             },
             video: {
                 thumbnail: '/images/blog-wide.png',
