@@ -33,7 +33,7 @@ export const heroData = {
 
 export const servicesData = [
     {
-        title: '10 Most Inspiring AI Leaders',
+        title: 'Most Inspiring AI Leaders',
         description: 'Featured in 10 Most Inspiring AI Leaders in India 2026 🔗',
     },
     {
@@ -149,14 +149,14 @@ export const testimonialsData = [
 ]
 
 export const portfolioData = {
-    title: 'Case Studies',
-    filterCategories: ["Show All", "Technology", "Leadership", "Product", "Strategy"],
+    title: 'Data & AI Insights',
+    filterCategories: ["Show All", "Technology", "Leadership", "Product", "Strategy", "Value"],
     projects: [
         {
             title: 'Transforming Workforce Intelligence with AI',
             slug: '1-project-title',
             category: 'Technology',
-            excerpt: 'How Vivek Kulthe applied AI and data engineering to improve workforce intelligence, compensation benchmarking, and business decision-making.',
+            excerpt: 'Discover how AI-powered compensation intelligence helps organizations make fair, data-driven pay decisions, improve workforce planning, and attract top talent.',
             content: '',
             content2: '',
             thumbnail: '/images/portfolio1.png',
@@ -177,7 +177,7 @@ export const portfolioData = {
             title: 'From Customer Feedback to Product Intelligence',
             slug: '2-project-title',
             category: 'Technology',
-            excerpt: 'How Vivek Kulthe applied AI and data engineering to improve workforce intelligence, compensation benchmarking, and business decision-making.',
+            excerpt: 'Learn how AI and analytics transform customer feedback into actionable product intelligence, enabling faster decisions, improved customer experiences, and data-driven innovation.',
             content: '',
             content2: '',
             thumbnail: '/images/portfolio2.png',
@@ -198,7 +198,7 @@ export const portfolioData = {
             title: 'Building an AI-Ready Data Platform',
             slug: '3-project-title',
             category: 'Strategy',
-            excerpt: 'How Vivek Kulthe applied AI and data engineering to improve workforce intelligence, compensation benchmarking, and business decision-making.',
+            excerpt: 'Explore the essential building blocks of AI-ready data platforms and learn why trusted data, governance, and modern architecture are critical for enterprise AI success.',
             content: '',
             content2: '',
             thumbnail: '/images/portfolio3.png',
@@ -219,13 +219,55 @@ export const portfolioData = {
             title: 'Rethinking How Organizations Use Data',
             slug: '4-project-title',
             category: 'Product',
-            excerpt: 'How Vivek Kulthe applied AI and data engineering to improve workforce intelligence, compensation benchmarking, and business decision-making.',
+            excerpt: 'Discover why leading organizations are moving beyond dashboards to data products that empower teams, accelerate decisions, and create measurable business value.',
             content: '',
             content2: '',
             thumbnail: '/images/portfolio4.png',
             client: 'vivekkulthe',
             images: [
                 '/images/portfolio4.png'
+            ],
+            projectLink: {
+                label: 'www.vivekkulthe.com',
+                url: 'https://vivek-kulthe.medium.com/data-products-not-dashboard-rethinking-how-organisations-use-data-773b00419acc'
+            },
+            video: {
+                thumbnail: '/images/blog-wide.png',
+                url: 'https://www.youtube.com/watch?v=V8yu12uRpBA'
+            },
+        },
+        {
+            title: 'Building High-Performance Organizations',
+            slug: '5-project-title',
+            category: 'Leadership',
+            excerpt: 'Learn practical lessons on building scalable Data Engineering organizations through strong leadership, team design, engineering culture, and technical excellence.',
+            content: '',
+            content2: '',
+            thumbnail: '/images/portfolio5.png',
+            client: 'vivekkulthe',
+            images: [
+                '/images/portfolio5.png'
+            ],
+            projectLink: {
+                label: 'www.vivekkulthe.com',
+                url: 'https://vivek-kulthe.medium.com/data-products-not-dashboard-rethinking-how-organisations-use-data-773b00419acc'
+            },
+            video: {
+                thumbnail: '/images/blog-wide.png',
+                url: 'https://www.youtube.com/watch?v=V8yu12uRpBA'
+            },
+        },
+        {
+            title: 'Playbook for Measuring ROI from Data-AI Investments',
+            slug: '6-project-title',
+            category: 'Value',
+            excerpt: 'Learn how executives can measure the real ROI of Data & AI investments using business outcomes, adoption, productivity, and value creation instead of technical metrics.',
+            content: '',
+            content2: '',
+            thumbnail: '/images/portfolio6.png',
+            client: 'vivekkulthe',
+            images: [
+                '/images/portfolio6.png'
             ],
             projectLink: {
                 label: 'www.vivekkulthe.com',
