@@ -8,7 +8,7 @@ export default function Hero() {
         <section id="about" className="md:flex pt-16 xl:pt-[70px] space-y-6">
             <div className="md:w-2/6 xl:w-1/4 md:ml-6 lg:ml-8 xl:ml-10 text-right md:order-2">
                 <div className="relative inline-block max-w-[480px] md:max-w-[270px] before:content-[''] before:-z-[1] before:absolute before:-top-4 before:right-4 before:-bottom-4 before:-left-4 before:bg-white/30 before:border before:border-charcoal/20 before:border-dashed before:rounded-tl-[50%] before:rounded-bl-[50%] dark:before:bg-charcoal/30 dark:before:border-white/30">
-                    <Image src={heroData.avatarSrc} alt="Avatar" loading="lazy" width={300} height={300} className="rounded-tl-[50%] rounded-bl-[50%]" />
+                    <Image src={heroData.avatarSrc} alt="Vivek Kulthe, Data Engineering, Analytics and AI Executive" loading="lazy" width={300} height={300} className="rounded-tl-[50%] rounded-bl-[50%]" />
                     <ul className="absolute bottom-5 left-2 space-x-1">
                         {heroData.socialLinks.map((item, index) => (
                             <li key={index} className="list-none inline-block">

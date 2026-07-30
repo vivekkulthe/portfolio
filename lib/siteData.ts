@@ -2,7 +2,7 @@ export const headerData = {
     phoneNumbers: ['+44 7721 008214'],
     email: 'contact@vivekkulthe.com',
     navigation: [
-        { name: 'About', href: '/#' },
+        { name: 'About', href: '/#about' },
         { name: 'Services', href: '/#services' },
         { name: 'Portfolio', href: '/portfolio' },
         { name: 'Resume', href: '/#resume' },
@@ -33,8 +33,8 @@ export const heroData = {
 
 export const servicesData = [
     {
-        title: '', /*'10 Most Inspiring AI Leaders',*/
-        description: '', /*'Featured in 10 Most Inspiring AI Leaders in India 2026 by Corporate Trendz Magazine',*/ 
+        title: '10 Most Inspiring AI Leaders',
+        description: 'Featured in 10 Most Inspiring AI Leaders in India 2026 🔗',
     },
     {
         title: 'Aligning data, analytics, and AI strategy with business goals to deliver measurable outcomes.',
@@ -188,6 +188,27 @@ export const portfolioData = {
             projectLink: {
                 label: 'www.vivekkulthe.com',
                 url: 'https://vivek-kulthe.medium.com/from-customer-feedback-to-product-intelligence-67a4dea8b60c'
+            },
+            video: {
+                thumbnail: '/images/blog-wide.png',
+                url: 'https://www.youtube.com/watch?v=V8yu12uRpBA'
+            },
+        },
+        {
+            title: 'Building an AI-Ready Data Platform',
+            slug: '2-project-title',
+            category: 'Technology',
+            excerpt: 'How Vivek Kulthe applied AI and data engineering to improve workforce intelligence, compensation benchmarking, and business decision-making.',
+            content: '',
+            content2: '',
+            thumbnail: '/images/portfolio3.png',
+            client: 'vivekkulthe',
+            images: [
+                '/images/portfolio3.png'
+            ],
+            projectLink: {
+                label: 'www.vivekkulthe.com',
+                url: 'https://vivek-kulthe.medium.com/building-an-ai-ready-data-platform-f329bd708a69'
             },
             video: {
                 thumbnail: '/images/blog-wide.png',
