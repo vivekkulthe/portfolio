@@ -150,7 +150,7 @@ export const testimonialsData = [
 
 export const portfolioData = {
     title: 'Case Studies',
-    filterCategories: ["Show All", "Technology", "Leadership"],
+    filterCategories: ["Show All", "Technology", "Leadership", "Product", "Strategy"],
     projects: [
         {
             title: 'Transforming Workforce Intelligence with AI',
@@ -218,7 +218,7 @@ export const portfolioData = {
         {
             title: 'Rethinking How Organizations Use Data',
             slug: '4-project-title',
-            category: 'Product Thinking',
+            category: 'Product',
             excerpt: 'How Vivek Kulthe applied AI and data engineering to improve workforce intelligence, compensation benchmarking, and business decision-making.',
             content: '',
             content2: '',
