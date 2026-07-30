@@ -197,7 +197,7 @@ export const portfolioData = {
         {
             title: 'Building an AI-Ready Data Platform',
             slug: '3-project-title',
-            category: 'Technology',
+            category: 'Strategy',
             excerpt: 'How Vivek Kulthe applied AI and data engineering to improve workforce intelligence, compensation benchmarking, and business decision-making.',
             content: '',
             content2: '',
@@ -218,7 +218,7 @@ export const portfolioData = {
         {
             title: 'Rethinking How Organizations Use Data',
             slug: '4-project-title',
-            category: 'Technology',
+            category: 'Product Thinking',
             excerpt: 'How Vivek Kulthe applied AI and data engineering to improve workforce intelligence, compensation benchmarking, and business decision-making.',
             content: '',
             content2: '',
