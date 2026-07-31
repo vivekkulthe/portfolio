@@ -4,16 +4,15 @@ export const headerData = {
     navigation: [
         { name: 'About', href: '/#about' },
         { name: 'Services', href: '/#services' },
-        { name: 'Portfolio', href: '/portfolio' },
+        { name: 'Insights', href: '/portfolio' },
         { name: 'Resume', href: '/#resume' },
         { name: 'Contact', href: '/contact' },
        /* { name: 'Blog', href: '/blog' },*/ 
        /* BLOG LINK COMMENTED ABOVE */
     ],
     socialLinks: [
-        { bootstrapIcons: "bi bi-messenger", href: "https://m.me/vivek.kulthe" },
         { bootstrapIcons: "bi bi-instagram", href: "https://ig.me/m/vivek.kulthe" },
-        { bootstrapIcons: "bi bi-twitter-x", href: "https://twitter.com/messages/compose?recipient_id=vivekkulthe" },
+        { bootstrapIcons: "bi bi-medium", href: "https://vivek-kulthe.medium.com/" },
         { bootstrapIcons: "bi bi-linkedin", href: "https://www.linkedin.com/in/vivekkulthe/" },
     ],
     logo: '<vivek/kulthe>',
@@ -25,9 +24,9 @@ export const heroData = {
     hireStatus: 'Visit My LinkedIn Profile',
     resumeUrl: 'https://www.linkedin.com/in/vivekkulthe/', /* '/Vivek_Kulthe_Resume.pdf', */
     socialLinks: [
-        { bootstrapIcons: "bi bi-messenger", href: "https://m.me/vivek.kulthe" },
-        { bootstrapIcons: "bi bi-instagram", href: "https://ig.me/m/vivek.kulthe" },
         { bootstrapIcons: "bi bi-twitter-x", href: "https://twitter.com/messages/compose?recipient_id=vivekkulthe" },
+        { bootstrapIcons: "bi bi-medium", href: "https://vivek-kulthe.medium.com/" },
+        { bootstrapIcons: "bi bi-linkedin", href: "https://www.linkedin.com/in/vivekkulthe/" },
     ],
 }
 
@@ -250,7 +249,7 @@ export const portfolioData = {
             ],
             projectLink: {
                 label: 'www.vivekkulthe.com',
-                url: 'https://vivek-kulthe.medium.com/data-products-not-dashboard-rethinking-how-organisations-use-data-773b00419acc'
+                url: 'https://vivek-kulthe.medium.com/building-high-performing-data-engineering-organisations-730b260cf3ea'
             },
             video: {
                 thumbnail: '/images/blog-wide.png',
@@ -271,7 +270,7 @@ export const portfolioData = {
             ],
             projectLink: {
                 label: 'www.vivekkulthe.com',
-                url: 'https://vivek-kulthe.medium.com/data-products-not-dashboard-rethinking-how-organisations-use-data-773b00419acc'
+                url: 'https://vivek-kulthe.medium.com/the-executive-playbook-for-measuring-roi-from-data-ai-investments-793cb944a9c0'
             },
             video: {
                 thumbnail: '/images/blog-wide.png',
