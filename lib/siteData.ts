@@ -11,8 +11,8 @@ export const headerData = {
        /* BLOG LINK COMMENTED ABOVE */
     ],
     socialLinks: [
-        { bootstrapIcons: "bi bi-instagram", href: "https://ig.me/m/vivek.kulthe" },
         { bootstrapIcons: "bi bi-medium", href: "https://vivek-kulthe.medium.com/" },
+        { bootstrapIcons: "bi bi-file-earmark-fill", href: "" },
         { bootstrapIcons: "bi bi-linkedin", href: "https://www.linkedin.com/in/vivekkulthe/" },
     ],
     logo: '<vivek/kulthe>',
@@ -24,8 +24,8 @@ export const heroData = {
     hireStatus: 'Visit My LinkedIn Profile',
     resumeUrl: 'https://www.linkedin.com/in/vivekkulthe/', /* '/Vivek_Kulthe_Resume.pdf', */
     socialLinks: [
-        { bootstrapIcons: "bi bi-twitter-x", href: "https://twitter.com/messages/compose?recipient_id=vivekkulthe" },
         { bootstrapIcons: "bi bi-medium", href: "https://vivek-kulthe.medium.com/" },
+        { bootstrapIcons: "bi bi-file-earmark-fill", href: "" },
         { bootstrapIcons: "bi bi-linkedin", href: "https://www.linkedin.com/in/vivekkulthe/" },
     ],
 }
